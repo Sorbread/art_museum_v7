@@ -1,0 +1,71 @@
+.review_wrapper .main {
+  padding: 2rem;
+  color: black;
+}
+
+form {
+  color: black;
+}
+input {
+  color: black;
+}
+
+select {
+  color: black;
+}
+
+option {
+  color: black;
+}
+
+.review_wrapper .side {
+  padding: 1rem;
+}
+
+.side form .search {
+  width: 70%;
+}
+
+.side form .submit {
+  width: 20%;
+}
+
+#rating_bound {
+  width: 30%;
+}
+
+#review_rating {
+  width: 40%;
+}
+
+textarea {
+  color: black;
+}
+.results {
+  background-color: gray;
+  margin: 1rem;
+  margin-left: 0;
+  padding: 1rem;
+}
+
+.create_review {
+  display: block;
+  margin: 2rem;
+}
+
+.create_review,
+.create_review #review_rating,
+.create_review > * {
+  margin: 0.5rem;
+  width: 90%;
+  padding: 0.2rem;
+}
+
+.create_review .submit {
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+.side input {
+  height: 70px;
+}

@@ -1,0 +1,101 @@
+.gallery {
+    height: 550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.gallery .image_box {
+    margin-top: 3rem;
+    width: 250px;
+    height: 460px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 3px;
+    transition: box-shadow 0.3s ease;
+}
+
+.gallery a {
+    text-decoration: none;
+}
+
+.image_box:hover {
+    box-shadow: 4px 10px 10px rgba(255, 255, 255, 0.43);
+}
+
+.image {
+    border-radius: 6px;
+    grid-area: image;
+    margin: 5px;
+    width: 75%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.medium .image {
+    margin-top: 1rem;
+    height: 200px;
+    width: 125px;
+}
+
+.large .image {
+    height: 480px;
+    width: 270px;
+}
+
+.image_box p {
+    padding: 15px;
+}
+
+.image_content {
+    margin-top: 20px;
+    height: 400px;
+    display: flex;
+}
+
+.main_image {
+    padding: 2rem 2rem 0 2rem;
+}
+
+.main_image .image {
+    position: absolute;
+    margin: 0;
+}
+
+.main_text {
+    padding-top: 2rem;
+    padding-right: 4rem;
+    position: relative;
+}
+
+#niagara {
+    background-image: url("../images/niagara_1857_scaled.jpg")
+}
+
+#a_poet_reading {
+    background-image: url("../images/a_poet_reading_1430_scaled.jpg");
+}
+
+#eastern_ruler_seated {
+    background-image: url("../images/an_eastern_ruler_seated_on_his_throne_1495_scaled.jpg");
+}
+
+#david_with_head {
+    background-image: url("../images/david_with_the_head_of_goliath_1495_scaled.jpg");
+}
+
+#scenes_from_the_passion {
+    background-image: url("../images/scenes_from_the_passion_of_christ.jpg");
+}
+
+#mass_at_dordrecht {
+    background-image: url("../images/the_maas_at_dordrecht_1650_scaled.jpg");
+}
+
+#japanese_footbridge {
+    background-image: url("../images/the_japanese_footbridge_1899_scaled.jpg");
+}
