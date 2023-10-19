@@ -42,12 +42,27 @@ textarea {
   color: black;
 }
 
-/* Search results */
+/* Search results container */
 .results {
-  background-color: gray;
-  margin: 1rem;
-  margin-left: 0;
-  padding: 1rem;
+  background-color: #f5f5f5;
+  border: 1px solid #ccc;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding: 1.5rem;
+  border-radius: 5px;
+  margin: 1rem 0;
+}
+
+/* Style the text within the results */
+.results p {
+  margin: 0;
+  font-size: 16px;
+  color: #333;
+}
+
+/* Highlight subheadings */
+.results .sub_heading {
+  font-weight: bold;
+  color: #007bff;
 }
 
 /* Create review section */
